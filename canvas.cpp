@@ -4,3 +4,8 @@ Canvas::Canvas()
 {
 
 }
+
+Canvas *Canvas::getInstance()
+{
+
+}

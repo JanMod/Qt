@@ -4,8 +4,11 @@
 
 class Canvas
 {
-public:
+private:
+    static Canvas* lul;
     Canvas();
+public:
+    static Canvas* getInstance();
 };
 
 #endif // CANVAS_H

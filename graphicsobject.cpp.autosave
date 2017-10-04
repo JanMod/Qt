@@ -59,3 +59,23 @@ void Graphicsobject::setHeight(int height)
 {
     m_height = height;
 }
+
+QColor Graphicsobject::fillColor() const
+{
+    return m_fillColor;
+}
+
+void Graphicsobject::setFillColor(const QColor &fillColor)
+{
+    m_fillColor = fillColor;
+}
+
+QColor Graphicsobject::borderColor() const
+{
+    return m_borderColor;
+}
+
+void Graphicsobject::setBorderColor(const QColor &borderColor)
+{
+    m_borderColor = borderColor;
+}

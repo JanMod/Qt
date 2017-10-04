@@ -10,10 +10,10 @@ public:
     ~Graphicsobject();
     virtual QGraphicsItem *graphicsItem() const;
 
-    virtual int x() const;
+    int x() const;
     virtual void setX(int x);
 
-    virtual int y() const;
+    int y() const;
     virtual void setY(int y);
 
     int width() const;

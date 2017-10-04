@@ -25,10 +25,27 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    graphicsobject.cpp \
+    canvas.cpp \
+    graphicscene.cpp \
+    tool.cpp \
+    toolbuttonsview.cpp \
+    drawingtoolselector.cpp \
+    circle.cpp \
+    rectangle.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    graphicsobject.h \
+    canvas.h \
+    graphicscene.h \
+    tool.h \
+    toolbuttonsview.h \
+    drawingtoolselector.h \
+    circle.h \
+    rectangle.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    drawingtoolselector.ui
